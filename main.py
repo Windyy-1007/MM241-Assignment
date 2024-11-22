@@ -47,7 +47,6 @@ if __name__ == "__main__":
     # Uncomment the following code to test your policy
     # Reset the environment
     observation, info = env.reset(seed=42)
-    print(info)
 
     policy2210xxx = Policy2352906()
     ep = 0
@@ -60,4 +59,6 @@ if __name__ == "__main__":
             print(info)
             ep += 1
 
-env.close()
+print("Done!")
+input("Press Enter to exit...")
+# env.close()
